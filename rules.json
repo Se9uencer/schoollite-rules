@@ -15,7 +15,11 @@
       }
     ],
     "lockSnapScroll": true,
-    "closeViewer": "[aria-label='Close']"
+    "closeViewer": "[aria-label='Close']",
+    "dmSearchFix": {
+      "heading": "Messages",
+      "input": "input[placeholder='Search']"
+    }
   },
   "youtube": {
     "hide": [
