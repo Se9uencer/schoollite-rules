@@ -1,0 +1,43 @@
+{
+  "instagram": {
+    "hide": [
+      "a[href='/reels/']",
+      "a[href^='/reels/']"
+    ],
+    "redirects": [
+      {
+        "from": "^/reels/?$",
+        "to": "/"
+      },
+      {
+        "from": "^/explore/?$",
+        "to": "/explore/search/"
+      }
+    ],
+    "lockSnapScroll": true
+  },
+  "youtube": {
+    "hide": [
+      "ytm-pivot-bar-item-renderer:has(.pivot-shorts)",
+      "ytm-reel-shelf-renderer",
+      "ytm-shorts-lockup-view-model",
+      "ytm-shorts-lockup-view-model-v2",
+      "ytm-rich-section-renderer:has(a[href^='/shorts/'])",
+      "grid-shelf-view-model:has(a[href^='/shorts/'])",
+      "ytm-rich-item-renderer:has(a[href^='/shorts/'])",
+      "ytm-video-with-context-renderer:has(a[href^='/shorts/'])",
+      "a[href$='/shorts']"
+    ],
+    "redirects": [
+      {
+        "from": "^/shorts/([^/]+).*$",
+        "to": "/watch?v=$1"
+      },
+      {
+        "from": "^/$",
+        "to": "/feed/subscriptions"
+      }
+    ],
+    "lockSnapScroll": false
+  }
+}
