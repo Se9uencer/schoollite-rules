@@ -14,7 +14,8 @@
         "to": "/explore/search/"
       }
     ],
-    "lockSnapScroll": true
+    "lockSnapScroll": true,
+    "closeViewer": "[aria-label='Close']"
   },
   "youtube": {
     "hide": [
